@@ -1,0 +1,373 @@
+
+@font-face{
+    font-family:Yanone;
+    src: url('fonts/YanoneKaffeesatz-Regular.ttf');
+}
+@font-face{
+    font-family:Yanone bold;
+    src: url('fonts/YanoneKaffeesatz-Bold.ttf');
+}
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color:#333;
+}
+h1{
+    font-family: Yanone bold;
+    margin-top: 150px;
+    margin-left: 25%;
+}
+h2{
+    font-family: Yanone bold;
+    padding-top:50px;
+    padding-left:290px;
+    font-size: 34px;
+}
+#header{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    display: inline;
+    margin-top:0;
+}
+#header a{
+    cursor: pointer;
+    display:inline;
+    font-size:13px;
+    font-weight:bold;
+    line-height: 28px;
+    text-decoration:none;
+    color: #333;
+}
+#header a:hover{
+    color:#0459B7;
+}
+#header ul{
+    padding-left:0;
+    background-image: -webkit-gradient(linear, 0 0%, 0 40%, from(#EEEEEE), to(#FFFFFF));
+    box-shadow:#CCCCCC 0 0 50px;
+    padding-top:0px;
+    padding-bottom:0px;
+    border-radius-bottom:30px;
+}
+#header li{
+    list-style-type:none;
+    display:inline;
+    padding-left:10px;
+}
+#logout{
+    padding-right:10px;
+    float:right;
+}
+#login{
+    box-shadow:#CCCCCC 0 0 50px;
+    display:block;
+    background-image: -webkit-gradient(linear, 0 0%, 0 40%, from(#EEEEEE), to(#FFFFFF));
+    width:45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    padding-bottom:20px;
+    font-family: Yanone;
+    margin-bottom: 25px;
+    position:relative;
+}
+#login h2{
+    padding-top:10px;
+    padding-left:15px;
+}
+#login:after{
+    content:"";
+    position:absolute;
+    top:-30px;
+    left:50px;
+    border:15px solid transparent;
+    border-bottom-color: #eee;
+    display:block; 
+    width:0;
+}
+#login:before{
+    position:absolute;
+    top:-60px;
+    left:0;
+    width:155px;
+    height:36px;
+    display:block; 
+}
+#login p{
+    padding-left: 31px;
+    color: red;
+}
+#login form{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#login form input{
+    margin-top:8px;
+    margin-bottom:8px;
+    box-shadow: #AAAAAA 0 0 4px;
+    background-color: #fff;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    color: #555;
+    font-size: 14px;
+    width:220px;
+    height:35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: Yanone;
+    -webkit-transition: background 0.3s linear;
+}
+#login form input:hover{
+    background: #eee;
+}
+#login form input[ type="submit" ]{
+    width: 150px;
+    color: #eee;
+    background-color: #18a5cc;
+    border: none;
+    -webkit-transition: -webkit-box-shadow 0.3s linear;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px;
+    border-radius: 4px; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#18a5cc), to(#0a85a8)); 
+    background: -moz-linear-gradient(25% 75% 90deg,#0a85a8, #18a5cc);       
+}
+#login form input[type="submit"]:hover{
+    -webkit-box-shadow: 0px 0px 20px #555;
+    -moz-box-shadow: 0px 0px 20px #aaa; 
+    box-shadow: 0px 0px 20px #555;  
+    cursor:  pointer;
+}
+#back{
+    margin-left:30%;
+    margin-right:140px;
+}
+#project{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+
+    font-family: Yanone;
+    box-shadow:#CCCCCC 0 0 50px;
+    background-image: -webkit-gradient(linear, 0 0%, 0 40%, from(#EEEEEE), to(#FFFFFF));
+    position:relative;
+    clear:both;
+    width: 75%;
+    padding-bottom: 30px;
+    border radius:10px;
+    margin-top:50px;
+}
+
+#project:after{
+    content:"";
+    position:absolute;
+    top:-30px;
+    left:50px;
+    border:15px solid transparent;
+    border-bottom-color: #eee;
+    display:block; 
+    width:0;
+}
+#project:before{
+    position:absolute;
+    top:-60px;
+    left:0;
+    width:155px;
+    height:36px;
+    display:block; 
+}
+#project img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left:20px;
+    margin- top:30px;
+    padding-top:30px;
+    padding-right: 20px;
+    border-top-radius: 7px 7px;
+    border-bottom-radius: 7px 7px;
+}
+#project a img{
+    width:15px;
+    height:15px;
+    padding-right:10px;
+    margin-top:10px;
+    padding-top:0;
+    margin-left:0;
+}
+#project p{
+    margin: 0;
+}
+#prtitle{
+    padding-top:15px;
+    font-weight:bold;
+    font-size: 36px;
+    font-family: Yanone bold;
+}
+#prtext{
+    padding-top: 20px;
+    padding-left:205px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+#link{
+    padding-left:205px;
+    color: #cdc0b0;
+    text-decoration: none;
+}
+#link:hover{
+    color:#636363;
+}
+#created{
+    padding-top: 10px;
+    padding-left: 230px;
+    color: #e0eeee;
+}
+.set{
+    float:right;
+}
+.container{
+    display:block;
+    position:relative;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    background-image: -webkit-gradient(linear, 0 0%, 0 40%, from(#EEEEEE), to(#FFFFFF));
+    border-radius:10px;
+    font-family: Yanone;
+    box-shadow:#CCCCCC 0 0 50px;
+}
+.container:after{
+    content:"";
+    position:absolute;
+    top:-30px;
+    left:50px;
+    border:15px solid transparent;
+    border-bottom-color: #eee;
+    display:block; 
+    width:0;
+}
+.container:before{
+    position:absolute;
+    top:-60px;
+    left:0;
+    width:155px;
+    height:36px;
+    display:block; 
+}
+.container form{
+    display: block;
+}
+.container form input, textarea{
+    margin-top:8px;
+    margin-bottom:8px;
+    box-shadow: #AAAAAA 0 0 4px;
+    background-color: #fff;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    color: #555;
+    font-size: 14px;
+    width:220px;
+    height:35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: Yanone;
+    -webkit-transition: background 0.3s linear;
+}
+.container form input:hover, textarea:hover{
+    background: #eee;
+}
+.container form input[ type="submit" ]{
+    width: 150px;
+    color: #eee;
+    background-color: #18a5cc;
+    border: none;
+    -webkit-transition: -webkit-box-shadow 0.3s linear;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#18a5cc), to(#0a85a8)); 
+    background: -moz-linear-gradient(25% 75% 90deg,#0a85a8, #18a5cc);
+    margin-bottom: 30px;
+}
+.container form input[type="submit"]:hover{
+    -webkit-box-shadow: 0px 0px 20px #555;
+    -moz-box-shadow: 0px 0px 20px #aaa; 
+    box-shadow: 0px 0px 20px #555;  
+    cursor:  pointer;
+}
+.container label{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.container input{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.container input[type="file"]{
+    border:none;
+    background-color: transparent;
+    box-shadow: none;
+}
+.container textarea{
+    margin-top:10px;
+    width: 300px;
+    max-width: 300px;
+    height: 200px;
+    max-height: 310px;
+}
+.container div{
+    float: right;
+    margin-right:30px;
+}
+.container img{
+    width:200px;
+    height:200px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float:left;
+}
+#settings{
+    padding-top:30px;
+}
+#settings form label{
+    display: block;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#settings form input[type="file"]{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#settings form textarea{
+    float:right;
+    margin-right:30px;
+    margin-left: 30px;
+}
+#copy{
+    font-size: 12px;
+    display: inline;
+    border-top-width:1px;
+    border-top-style: solid;
+    color: #777;
+    border-color: #777;
+    bottom: 10px;
+    left:40%;
+    padding-top: 10px;
+    margin-top:0;
+    margin-bottom:10px;
+    margin-right:30px;
+    float:right;
+}
+#copy a{
+    font-weight:bold;
+    text-decoration:nne;
+    color: #333;
+}
